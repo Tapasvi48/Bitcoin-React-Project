@@ -1,0 +1,20 @@
+
+.btnContainer{
+display:flex;
+width:20%;
+overflow-y:hidden;
+overflow-x:scroll;
+margin:0 auto 2px;
+padding:0 auto 0 ;
+}
+.btn{
+margin:0 40px 40px 2px;
+font-size:30px;
+
+color:black;
+
+}
+button{
+width:100%;    
+height:auto;
+}

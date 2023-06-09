@@ -1,0 +1,23 @@
+.Loader{
+text-align:center;
+margin:20vmax auto;
+
+border:2px solid rgba(0, 0, 0, 0.882);
+border-top:2px solid rgb(255, 255, 255);
+border-bottom:2px solid rgb(255, 255, 255);
+border-radius:100px;
+width:100px;
+height:100px;
+animation:load 2s linear infinite;
+}
+
+
+
+@keyframes load {
+    
+    0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+
+    
+}
+
